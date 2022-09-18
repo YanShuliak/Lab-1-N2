@@ -4,9 +4,9 @@ int main()
 { 
     int a, b;
  printf(" a: ");
- scanf("%d", &a);
+ scanf_s("%d", &a);
  printf(" b: ");
- scanf("%d", &b);
+ scanf_s("%d", &b);
  if((a==b)||(-a==-b))
  {
      printf("equal numbers");
